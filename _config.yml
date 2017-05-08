@@ -3,12 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Kwang Hee Lee
+name: Your Name
 
 # Short bio or description (displayed in the header)
-description: Researcher from Artificial Intelligence Research Institute (AIRI)
+description: Web Developer from Somewhere
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/kh22l22/kh22l22.github.io/blob/master/images/17883514_1323310691117941_4495449640614113901_n.jpg
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
 # Flags below are optional
@@ -17,15 +18,15 @@ avatar: https://github.com/kh22l22/kh22l22.github.io/blob/master/images/17883514
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: lkwanghee@gmail.com
-  facebook: https://www.facebook.com/lkwanghee
+  email:
+  facebook:
   flickr:
-  github: kh22l22
+  github: barryclark/jekyll-now
   instagram:
-  linkedin: https://www.linkedin.com/in/kwang-hee-lee-ab23a092/
+  linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter: jekyllrb
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -83,4 +84,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
