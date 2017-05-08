@@ -17,15 +17,15 @@ avatar: https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-1/c1.0.160.160/p160x160/1788
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook:
+  email:lkwanghee@gmail.com
+  facebook:https://www.facebook.com/lkwanghee
   flickr:
-  github: barryclark/jekyll-now
+  github: kh22l22
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/kwang-hee-lee-ab23a092/
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
