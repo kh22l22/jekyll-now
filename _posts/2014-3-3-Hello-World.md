@@ -3,8 +3,8 @@ layout: post
 title: Kaggle Data Science Bowl 2017 
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+ 지능정보기술연구원(AIRI)은 의료분야에 진출하기 위한 일환으로  kaggle data science bowl 2017에 처음으로 참가하였고, 부족하지만 의미있는 결과를 얻게 되어 공유하고자 합니다.
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+### Data Science Bowl 2017
+
