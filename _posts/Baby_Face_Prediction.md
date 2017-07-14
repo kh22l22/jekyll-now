@@ -3,7 +3,7 @@ layout: post
 title:  태아 얼굴 예측 프로젝트 (진행중)
 ---
 
-![Baby Face Prediction](../images/front_page.png)
+![Baby Face Prediction](../images/IMG_6026.jpg)
 
 [**지능정보기술연구원(AIRI)**](http://airi.kr)은 의료분야에 진출하기 위한 일환으로 [**Kaggle Data Science Bowl 2017**](https://www.kaggle.com/c/data-science-bowl-2017)에 처음으로 참가하였고, 부족하지만 의미있는 결과를 얻게 되어 공유하고자 합니다. 
 
