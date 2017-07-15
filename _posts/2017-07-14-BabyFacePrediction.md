@@ -17,7 +17,7 @@ title:  태아 얼굴 예측 프로젝트 (진행중)
 
 ![Baby Face Prediction](../images/초음파 태아 렌더링 영상.png)
 [그림 2.] 다양한 태아의 볼륨렌더링 영상 검색 
-
+![nodule_data1](../images/a53810_eb8df261f1dc467d9ee822ef80a4e5a3-mv2.png)
 ## 방법
 초음파 렌더링 영상과 실제 사진의 pair가 있다면 Pix2Pix와 같은 conditional GAN을 활용하면 된다. 하지만, 이 문제는 이전에 진행한 수묵화 프로젝트와 마찬가지로 unpaired data간의 변환을 찾아야 하는 문제이다.
 일단 unpaired data간의 변환하면 생각나는 것은 CycleGAN과 DISCOGAN일 것이다. 데이터는 구글검색을 통해 많진 않지만 200케이스 정도는 쉽게 수집 가능하다. 또한, http://3dand4d.com/ 에서는 초음파 렌더링 이미지와 대응하는 
