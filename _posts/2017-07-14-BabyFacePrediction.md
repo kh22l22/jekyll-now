@@ -14,7 +14,7 @@ title:  태아 얼굴 예측 프로젝트 (진행중)
 볼륨렌더링을 적용하여 보여주는데, 최근에 와서는 실제 피부의 반투명한 느낌까지도 반영하여 그럴듯 한 결과를 제공하고 있다. 
 매우 그럴듯한 결과를 제공함에도 불구하고, 실제 태어났을때의 사진같은 느낌 보다는 여전히 인위적으로 만든 듯한 느낌을 주기 때문에 최근
 각광받는 Generative Adversarial Networks를 활용하여 아기가 태어났을때의 모습을 예측하여 생성결과를 보여주면 어떨까라는 생각에서 이 프로젝트를 시작했다.
-
+![Baby Face Prediction](../images/VR2PIXs.png)
 ![ultrasound](../images/ultrasound fetal images.png)
 [그림 2.] 다양한 태아의 볼륨렌더링 영상 검색 
 
