@@ -15,7 +15,7 @@ title:  태아 얼굴 예측 프로젝트 (진행중)
 매우 그럴듯한 결과를 제공함에도 불구하고, 실제 태어났을때의 사진같은 느낌 보다는 여전히 인위적으로 만든 듯한 느낌을 주기 때문에 최근
 각광받는 Generative Adversarial Networks를 활용하여 아기가 태어났을때의 모습을 예측하여 생성결과를 보여주면 어떨까라는 생각에서 이 프로젝트를 시작했다.
 ![ultrasound_fetal_images](../images/ultrasound_fetal_images.png)
-[그림 2.] 다양한 태아의 볼륨렌더링 영상 검색 
+[그림 2.] 다양한 태아의 볼륨렌더링 영상 검색 결과들
 
 ## 방법
 초음파 렌더링 영상과 실제 사진의 pair가 있다면 Pix2Pix와 같은 conditional GAN을 활용하면 된다. 하지만, 이 문제는 이전에 진행한 수묵화 프로젝트와 마찬가지로 unpaired data간의 변환을 찾아야 하는 문제이다.
