@@ -45,9 +45,10 @@ title:  태아 얼굴 예측 프로젝트 (진행중)
 
 ![CycleGAN_Loss](../images/CycleConsistLoss.png)
 [그림 4.] CycleGAN Loss
-![result2](../images/result1.png)
+![result2](../images/result2.png)
 [그림 5.] 학습결과 (Lamda = 1)
 
+Updata 예정 ....
 
 
 
