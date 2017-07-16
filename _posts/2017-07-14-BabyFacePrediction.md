@@ -29,7 +29,7 @@ title:  태아 얼굴 예측 프로젝트 (진행중)
 최대한 빨리 결과를 확인하고 싶어서 초음파 데이터셋(67개), 아기사진(121개)를 크롤링하여 CycleGAN(https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)을 적용하였다.
 총 epoch는 800번 수행하였고, 나머지 기본적인 hype parameter는 default setting을 그대로 적용하였다. 
 결과는 아래와 같이 처참하다 ㅡㅡ;; 이쁘 아기 사진을 기대하였기 때에 충격이 크다. 한번에 잘 나올것으로 기대한것은 아니지만, 이렇게 무시무시한 도깨비가 나올줄은 생각도 못했다. 
-![result1](../images/)
+![result1](../images/result1.png)
 [그림 3.] 학습결과 (Lamda = 10)
 몇가지 문제점을 체크해보자. 
 
@@ -45,7 +45,8 @@ title:  태아 얼굴 예측 프로젝트 (진행중)
 
 ![CycleGAN_Loss](../images/CycleConsistLoss.png)
 [그림 4.] CycleGAN Loss
-[그림 5.]
+![result2](../images/result1.png)
+[그림 5.] 학습결과 (Lamda = 1)
 
 
 
