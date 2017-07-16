@@ -29,8 +29,8 @@ title:  태아 얼굴 예측 프로젝트 (진행중)
 최대한 빨리 결과를 확인하고 싶어서 초음파 데이터셋(67개), 아기사진(121개)를 크롤링하여 CycleGAN(https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)을 적용하였다.
 총 epoch는 800번 수행하였고, 나머지 기본적인 hype parameter는 default setting을 그대로 적용하였다. 
 결과는 아래와 같이 처참하다 ㅡㅡ;; 이쁘 아기 사진을 기대하였기 때에 충격이 크다. 한번에 잘 나올것으로 기대한것은 아니지만, 이렇게 무시무시한 도깨비가 나올줄은 생각도 못했다. 
-
-[그림 3.]
+![result1](../images/)
+[그림 3.] 학습결과 (Lamda = 10)
 몇가지 문제점을 체크해보자. 
 
 1. 데이터 셋 구성 : 아무래도 원 논문에서 실험에 사용한 데이터셋 갯수가 1000케이스 이상인 것으로 보아 상대적으로 너무 적은 데이터를 학습에 사용했다.
@@ -40,10 +40,13 @@ title:  태아 얼굴 예측 프로젝트 (진행중)
 이것을 활용해 볼 생각이다. 
 
 2. cyclegan의 hyperparmeter 중 cycle-consistency[그림 4.]에 lamda라는 가중치를 조절할 수 있다. 이 가중치는 GAN loss와 cycle-consistency loss사이의 중요도를 결정하는 
-요소이다. default는 10이고, [그림 3.]의 결과를 보면, fake B(생성 결과)는 매우 안좋은 결과를 얻었지만, recon A (복원 결과)는 원본과 매우 유사하게 복원된 것을 볼 수있다. 아래는 lamda를 10에서 1로 바꿔서 얻은 실험 결과이다. recon A결과가 앞선 실험(lamda = 10)에서 보다 fake B의 결과는 더 변화무쌍해지고, 상대적으로 recon A의 결과는 원본과 비교하여 
+요소이다. default는 10이고, [그림 3.]의 결과를 보면, fake B(생성 결과)는 매우 안좋은 결과를 얻었지만, recon A (복원 결과)는 원본과 매우 유사하게 복원된 것을 볼 수있다. [그림 5.] 는 lamda를 10에서 1로 바꿔서 얻은 실험 결과이다. recon A결과가 앞선 실험(lamda = 10)에서 보다 fake B의 결과는 더 변화무쌍해지고, 상대적으로 recon A의 결과는 원본과 비교하여 
 차이가 커졌다. lamda의 변화만으로는 도깨비를 아기로 바꾸기 힘들어 보인다. 
 
-[그림 4.]
+![CycleGAN_Loss](../images/CycleConsistLoss.png)
+[그림 4.] CycleGAN Loss
+[그림 5.]
+
 
 
 
