@@ -42,13 +42,13 @@ title:  태아 얼굴 예측 프로젝트 (진행중)
 이것을 활용해 볼 생각이다. 
 
 2. cyclegan의 hyperparmeter 중 cycle-consistency[그림 4.]에 lamda라는 가중치를 조절할 수 있다. 이 가중치는 GAN loss와 cycle-consistency loss사이의 중요도를 결정하는 
-요소이다. default는 10이고, [그림 3.]의 결과를 보면, fake B(생성 결과)는 매우 안좋은 결과를 얻었지만, recon A (복원 결과)는 원본과 매우 유사하게 복원된 것을 볼 수있다. [그림 5.] 는 lamda를 10에서 1로 바꿔서 얻은 실험 결과이다. recon A결과가 앞선 실험(lamda = 10)에서 보다 fake B의 결과는 더 변화무쌍해지고, 상대적으로 recon A의 결과는 원본과 비교하여 
+요소이다. default는 10이고, [그림 3.]의 결과를 보면, fake B(생성 결과)는 매우 안좋은 결과를 얻었지만, recon A (복원 결과)는 원본과 매우 유사하게 복원된 것을 볼 수있다. [그림 5.] 는 lamda를 10에서 0.1로 바꿔서 얻은 실험 결과이다. recon A결과가 앞선 실험(lamda = 10)에서 보다 fake B의 결과는 더 변화무쌍해지고, 상대적으로 recon A의 결과는 원본과 비교하여 
 차이가 커졌다. lamda의 변화만으로는 도깨비를 아기로 바꾸기 힘들어 보인다. 
 
 ![CycleGAN_Loss](../images/CycleConsistLoss.png)
 [그림 4.] CycleGAN Loss
 ![result2](../images/result2.png)
-[그림 5.] 학습결과 (Lamda = 1)
+[그림 5.] 학습결과 (Lamda = 0.1)
 
 Updata 예정 ....
 
