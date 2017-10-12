@@ -9,4 +9,4 @@ permalink: /about/
 - 2015년 9월 ~ 2016년 11월 : 토비스, FIR Night Vision 알고리즘 개발
 - 2007년 9월 ~ 2015년 9월  : 삼성메디슨, 3D 초음파 자동진단시스템 알고리즘 개발
 
-##Research Interest : 
+## Research Interest ##
